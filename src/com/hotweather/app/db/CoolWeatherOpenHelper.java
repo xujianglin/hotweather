@@ -18,7 +18,7 @@ public class CoolWeatherOpenHelper extends SQLiteOpenHelper {
 				 *
 				 */
 		public static final String CREATE_CITY="create table City("
-				+"id inreger primary key autoincrement,"
+				+"id integer primary key autoincrement,"
 				+"city_name text,"
 				+"city_code text,"
 				+"province_id integer)"
@@ -46,7 +46,7 @@ public class CoolWeatherOpenHelper extends SQLiteOpenHelper {
 	}
 
 	@Override
-	public void onUpgrade(SQLiteDatabase arg0, int arg1, int arg2) {
+	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 		// TODO Auto-generated method stub
 
 	}

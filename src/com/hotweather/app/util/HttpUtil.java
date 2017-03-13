@@ -24,7 +24,7 @@ public class HttpUtil {
 				BufferedReader reader=new BufferedReader(new InputStreamReader(in));
 				StringBuilder response=new StringBuilder();
 				String line=null;
-				if((line=reader.readLine())!=null){
+				while((line=reader.readLine())!=null){
 					response.append(line);
 				}
 				if(listener!=null){
