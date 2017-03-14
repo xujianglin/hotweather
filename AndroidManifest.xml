@@ -26,5 +26,5 @@
         <service android:name="com.hotweather.app.service.AutoUpdateService"></service>
         <receiver android:name="com.hotweather.app.receiver.AutoUpdateReceiver"></receiver>
     </application>
-
+`
 </manifest>
